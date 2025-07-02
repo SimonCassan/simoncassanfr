@@ -9,8 +9,6 @@
 body {
     font-family: 'Orbitron', 'Segoe UI', 'Arial', sans-serif;
     color: rgba(255, 255, 255, 0.87);
-    letter-spacing: 1px;
-    background-color: #23272f;
 }
 
 a {
@@ -24,8 +22,11 @@ a:hover {
 }
 
 h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+    font-size: 3.2rem;
+}
+
+h2 {
+    font-size: 1.25rem;
 }
 
 button {
