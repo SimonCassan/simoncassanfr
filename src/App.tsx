@@ -4,6 +4,8 @@ import Desc from './components/Desc';
 import Links from './components/Links';
 import TechCards from './components/TechCards';
 
+import { techsData } from './data/Tech';
+
 function App() {
   return (
     <>
@@ -15,7 +17,7 @@ function App() {
         </article>
         <section className='mb-4'>
           <h2>Mes Techs :</h2>
-          <TechCards />
+          <TechCards techs={techsData} />
         </section>
       </main>
       <Footer />
