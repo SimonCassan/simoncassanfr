@@ -6,7 +6,7 @@ function Desc() {
                 Curieux de nature, je passe du back au front sans complexe, toujours à la recherche d'un projet novateur.
             </p>
             <p>Sensible aux enjeux d'accessibilité et d'éco-responsabilité, j'intègre ces principes dès la conception pour proposer des applications inclusives et respectueuses de l'environnement.
-                Mon objectif : créer des solutions utiles, durables et accessibles à tous.
+                Mon objectif&nbsp;: créer des solutions utiles, durables et accessibles à tous.
             </p>
         </div >
     )

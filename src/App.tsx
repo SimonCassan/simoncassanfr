@@ -3,7 +3,6 @@ import Title from './components/Title';
 import Desc from './components/Desc';
 import Links from './components/Links';
 import TechCards from './components/TechCards';
-
 import { techsData } from './data/Tech';
 
 function App() {
