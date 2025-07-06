@@ -1,7 +1,7 @@
 function Links() {
     return (
         <nav>
-            <h2 className="mb-2">Mes projets : </h2>
+            <h2 className="mb-2 font-medium">Mes projets : </h2>
             <div className="flex flex-col sm:flex-row gap-[1rem] justify-center items-center">
                 <a className="flex items-center" href="https://github.com/SimonCassan" target="_blank">
                     <svg aria-hidden="true" className="mr-2 w-6 h-6" viewBox="0 0 98 96" width="98" height="96" xmlns="http://www.w3.org/2000/svg">
@@ -10,7 +10,7 @@ function Links() {
                 </a>
                 <a className="flex items-center" href="https://unerecettedeplus.fr" target="_blank"><img className="w-6 h-6" src="../img/unerecettedeplus.png" alt="" />UneRecetteDePlus</a>
             </div>
-            <p className="mt-8">Contact : <a href="mailto:contact@simoncassan.fr?subject=Contact%20:%20%20Votre%20sujet">Simon Cassan</a></p>
+            <p className="mt-8 font-medium">Contact : <a href="mailto:contact@simoncassan.fr?subject=Contact%20:%20%20Votre%20sujet">Simon Cassan</a></p>
         </nav>
     )
 }
