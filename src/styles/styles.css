@@ -36,8 +36,9 @@ a {
     font-weight: 500;
 }
 
-a:hover {
-    color: rgb(255, 81, 0);
+a:hover,
+a:focus {
+    color: #b63a01;
 }
 
 @media (prefers-color-scheme: light) {
@@ -52,5 +53,10 @@ a:hover {
 
     a {
         color: #780000;
+    }
+
+    a:hover,
+    a:focus {
+        color: #914803;
     }
 }
