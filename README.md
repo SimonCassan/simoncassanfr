@@ -1,4 +1,4 @@
-# simoncassan.fr
+# [simoncassan.fr](simoncassan.fr)
 
 This is my personal portfolio website.  
 You’ll find a summary of my technical skills, a selection of my main projects, and ways to contact me.
