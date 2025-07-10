@@ -10,7 +10,7 @@ function Links() {
                 </a>
                 <a className="flex items-center" href="https://unerecettedeplus.fr" target="_blank"><img className="w-6 h-6" src="../img/unerecettedeplus.png" alt="" />UneRecetteDePlus</a>
             </div>
-            <p className="mt-8 font-medium">Contact : <a href="mailto:contact@simoncassan.fr?subject=Contact%20:%20%20Votre%20sujet">Simon Cassan</a></p>
+            <p className="mt-8 font-medium">Contact : <a href="mailto:dev@simoncassan.fr?subject=Contact%20:%20%20Votre%20sujet">Simon Cassan</a></p>
         </nav>
     )
 }
