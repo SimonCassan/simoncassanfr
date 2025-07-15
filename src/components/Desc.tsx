@@ -1,13 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 function Desc() {
+    const { t } = useTranslation();
     return (
         <div className="flex flex-col gap-[1rem] max-w-[65ch] m-auto font-[Roboto] leading-[1.8] text-left sm:text-justify text-[1.1rem] tracking-wide">
-            <p>Hello ! Je suis développeur web, passionné par la création d'applications robustes et performantes, notamment sous Node.js et Express.</p>
-            <p>J'adore tester de nouveaux frameworks, comprendre comment tout fonctionne et trouver la petite astuce qui fera la différence.
-                Curieux de nature, je passe du back au front sans complexe, toujours à la recherche d'un projet novateur.
-            </p>
-            <p>Sensible aux enjeux d'accessibilité et d'éco-responsabilité, j'intègre ces principes dès la conception pour proposer des applications inclusives et respectueuses de l'environnement.
-                Mon objectif&nbsp;: créer des solutions utiles, durables et accessibles à tous.
-            </p>
+            <p>{t("desc.p1")}</p>
+            <p>{t("desc.p2")}</p>
+            <p>{t("desc.p3")}</p>
         </div >
     )
 }

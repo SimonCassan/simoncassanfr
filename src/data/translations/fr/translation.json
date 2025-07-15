@@ -1,0 +1,21 @@
+{
+    "title": "Simon CASSAN - Développeur Web",
+    "meta-desc": "Développeur web junior fullstack spécialisé en JavaScript et SQL. Découvrez mon portfolio, mes compétences et mes projets réalisés avec React, Vite et Tailwind. Disponible pour collaborations ou missions freelance.",
+    "og-desc": "Développeur web junior fullstack spécialisé en JavaScript et SQL. Découvrez mon portfolio, mes compétences et mes projets réalisés avec React, Vite et Tailwind.",
+    "og-locale": "fr_FR",
+    "header": {
+        "btn-lang": "Choisir la langue",
+        "btn-theme": "Changer le thème"
+    },
+    "desc": {
+        "p1": "Hello ! Je suis développeur web, passionné par la création d'applications robustes et performantes, notamment sous Node.js et Express.",
+        "p2": "J'adore tester de nouveaux frameworks, comprendre comment tout fonctionne et trouver la petite astuce qui fera la différence. Curieux de nature, je passe du back au front sans complexe, toujours à la recherche d'un projet novateur.",
+        "p3": "Sensible aux enjeux d'accessibilité et d'éco-responsabilité, j'intègre ces principes dès la conception pour proposer des applications inclusives et respectueuses de l'environnement. Mon objectif\u00A0: créer des solutions utiles, durables et accessibles à tous."
+    },
+    "links": {
+        "h2": "Mes projets"
+    },
+    "techs": "Mes Techs",
+    "footer": "Simon\u00A0Cassan - Site créé avec React + Tailwind via",
+    "email": "mailto:dev@simoncassan.fr?subject=Contact%20:%20%20Votre%20sujet"
+}

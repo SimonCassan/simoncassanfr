@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @font-face {
     font-family: 'Roboto';
@@ -16,8 +17,6 @@
 
 body {
     font-family: 'Orbitron', 'Segoe UI', 'Arial', sans-serif;
-    color: rgba(255, 255, 255);
-    background-color: #0d0e11;
     letter-spacing: 0.1rem;
 }
 
@@ -29,6 +28,10 @@ h2 {
     font-size: 1.25rem;
 }
 
+button {
+    cursor: pointer;
+}
+
 a {
     color: #f77820;
     text-decoration: inherit;
@@ -36,27 +39,27 @@ a {
     font-weight: 500;
 }
 
-a:hover,
+/* a:hover,
 a:focus {
     color: #b63a01;
+} */
+
+/* Pour le mode clair forcé */
+html:not(.dark) a {
+    color: #780000;
 }
 
-@media (prefers-color-scheme: light) {
-    body {
-        background: #ddd;
-        color: #111;
-    }
+html:not(.dark) a:hover,
+html:not(.dark) a:focus {
+    color: #914803;
+}
 
-    .github-svg path {
-        fill: black;
-    }
+/* Pour le mode sombre */
+html.dark a {
+    color: #f77820;
+}
 
-    a {
-        color: #780000;
-    }
-
-    a:hover,
-    a:focus {
-        color: #914803;
-    }
+html.dark a:hover,
+html.dark a:focus {
+    color: #b63a01;
 }
